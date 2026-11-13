@@ -1,0 +1,15 @@
+--------------------------------------------CODE CHEATS-----------------------------------------------------
+
+Create environment:      python3 -m venv .venv
+Activate :               source .venv/bin/activate
+Install package:         python -m pip install package_name
+See installed packages:  python -m pip list
+Deactivate:              deactivate
+
+-------------------------------------------------------------------------------------------------------------
+
+The first step to do when building a python project is to create the environment then activate it.
+You can install packages using the install package cmd depending on the packages you need for you project.
+you can use the deactivate cmd to exit the environment to the previous terminal configuration.
+To check whether you python is installed properly using the version check cmd 'python3 --version', if it outputs a vesion, its means you have python installed, if not, python wasn't installed properly.
+Always add venv/ and/or .venv/ folder to your .gitignore file so you don't push them to your remote Github repo.
